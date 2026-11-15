@@ -1,25 +1,41 @@
-# Unreal Engine
+# Unreal Engine project .gitignore
+
+# Build artifacts
 Binaries/
+Build/
+
+# Cache and temporary files
 DerivedDataCache/
 Intermediate/
 Saved/
-*.sln
-*.suo
-*.xcodeproj
-*.xcworkspace
-*.VC.db
-*.VC.opendb
 
-# External Actors (no conviene versionarlos)
-Content/__ExternalActors_/
-
-# Configuración de usuario local
-.vscode/
-.idea/
-*.user
-*.userprefs
-
-# Archivos de backup
-*.bak
-*.tmp
+# Logs and temp files
 *.log
+*.tmp
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+*.o
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+
+# Backup files
+*.bak
+*.swp
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDE
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
